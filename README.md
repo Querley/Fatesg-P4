@@ -1,4 +1,6 @@
 
+This is a test.
+
 # 4th Semester College Activities – Software Development
 
 [![Status](https://img.shields.io/badge/status-Educational-lightgrey)](#)
@@ -45,6 +47,7 @@ elective subjects.
 ## 🚀 Purpose
 
 This repository serves as:
+
 - An **academic record** of my 4th semester activities  
 - A **study reference** for future semesters  
 - A **portfolio foundation** for software development projects  
