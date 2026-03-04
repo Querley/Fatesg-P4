@@ -1,0 +1,8 @@
+ operacao  | total  
+-----------+--------
+ UNION     | 279408
+ UNION ALL | 300024
+ EXCEPT    | 162743
+ INTERSECT |   9635
+(4 rows)
+
