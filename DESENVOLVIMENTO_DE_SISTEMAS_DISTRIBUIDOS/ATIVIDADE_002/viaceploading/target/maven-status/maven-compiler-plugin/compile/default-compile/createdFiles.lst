@@ -1,0 +1,6 @@
+br/com/viaceploading/util/LoadingAnimation.class
+br/com/viaceploading/Main.class
+br/com/viaceploading/model/Endereco.class
+br/com/viaceploading/service/ViaCepService.class
+br/com/viaceploading/App.class
+br/com/viaceploading/util/CepValidator.class
