@@ -1,0 +1,21 @@
+
+
+                                         QUERY PLAN                                         
+--------------------------------------------------------------------------------------------
+ Hash Join  (cost=21889.70..40270.71 rows=192358 width=117)
+   Hash Cond: (de.dept_no = d.dept_no)
+   ->  Hash Join  (cost=21888.50..39526.79 rows=192358 width=24)
+         Hash Cond: (de.emp_no = e.emp_no)
+         ->  Hash Semi Join  (cost=11075.96..24411.38 rows=205282 width=13)
+               Hash Cond: (de.emp_no = de2.emp_no)
+               ->  Seq Scan on dept_emp de  (cost=0.00..7134.05 rows=240233 width=9)
+                     Filter: (to_date > CURRENT_DATE)
+               ->  Hash  (cost=7134.05..7134.05 rows=240233 width=4)
+                     ->  Seq Scan on dept_emp de2  (cost=0.00..7134.05 rows=240233 width=4)
+                           Filter: (to_date > CURRENT_DATE)
+         ->  Hash  (cost=5304.24..5304.24 rows=300024 width=19)
+               ->  Seq Scan on employees e  (cost=0.00..5304.24 rows=300024 width=19)
+   ->  Hash  (cost=1.09..1.09 rows=9 width=118)
+         ->  Seq Scan on departments d  (cost=0.00..1.09 rows=9 width=118)
+(15 rows)
+

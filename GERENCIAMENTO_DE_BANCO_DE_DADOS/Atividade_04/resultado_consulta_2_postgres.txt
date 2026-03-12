@@ -1,0 +1,18 @@
+                                         QUERY PLAN                                         
+--------------------------------------------------------------------------------------------
+ Seq Scan on dept_emp de  (cost=0.00..4329526.30 rows=240233 width=198)
+   Filter: (to_date > CURRENT_DATE)
+   SubPlan 1
+     ->  Index Scan using employees_pkey on employees e  (cost=0.42..8.44 rows=1 width=7)
+           Index Cond: (emp_no = de.emp_no)
+   SubPlan 2
+     ->  Index Scan using employees_pkey on employees e_1  (cost=0.42..8.44 rows=1 width=8)
+           Index Cond: (emp_no = de.emp_no)
+   SubPlan 3
+     ->  Seq Scan on departments d  (cost=0.00..1.11 rows=1 width=98)
+           Filter: (dept_no = de.dept_no)
+ JIT:
+   Functions: 16
+   Options: Inlining true, Optimization true, Expressions true, Deforming true
+(14 rows)
+
