@@ -1,6 +1,4 @@
 
-This is a test.
-
 # 4th Semester College Activities – Software Development
 
 [![Status](https://img.shields.io/badge/status-Educational-lightgrey)](#)
