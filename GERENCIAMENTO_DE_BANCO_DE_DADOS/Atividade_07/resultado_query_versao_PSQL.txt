@@ -1,0 +1,12 @@
+
+       title        |  round   
+--------------------+----------
+ Senior Staff       | 80706.50
+ Manager            | 77723.67
+ Senior Engineer    | 70823.44
+ Technique Leader   | 67506.59
+ Staff              | 67330.67
+ Engineer           | 59602.74
+ Assistant Engineer | 57317.57
+(7 rows)
+
