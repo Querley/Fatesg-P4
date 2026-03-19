@@ -1,14 +1,12 @@
- emp_no |       name        |  dept_name  |      title       |  salary  
---------+-------------------+-------------+------------------+----------
- 442806 | Kenton Gornas     | Sales       | Senior Staff     | 99999.00
- 104585 | Hatim Colorni     | Production  | Senior Engineer  | 99998.00
- 298192 | Tsz Hambrick      | Sales       | Senior Staff     | 99998.00
-  76977 | Sigeru Stroustrup | Marketing   | Senior Staff     | 99997.00
- 248643 | Domenick Pepe     | Sales       | Senior Staff     | 99996.00
- 442491 | Zvonko Gewali     | Development | Technique Leader | 99996.00
- 401874 | Indrajit Passino  | Sales       | Senior Staff     | 99995.00
- 289075 | Shounak Takkinen  | Production  | Senior Engineer  | 99995.00
-  71178 | Rildo Simkin      | Development | Engineer         | 99994.00
- 214701 | Teunis Gniady     | Production  | Senior Engineer  | 99993.00
-(10 rows)
+
+       title        |  round   
+--------------------+----------
+ Senior Staff       | 80706.50
+ Manager            | 77723.67
+ Senior Engineer    | 70823.44
+ Technique Leader   | 67506.59
+ Staff              | 67330.67
+ Engineer           | 59602.74
+ Assistant Engineer | 57317.57
+(7 rows)
 
