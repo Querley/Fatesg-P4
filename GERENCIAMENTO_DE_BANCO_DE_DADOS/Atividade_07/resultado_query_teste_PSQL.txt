@@ -1,0 +1,11 @@
+INSERT 0 1
+UPDATE 1
+DELETE 1
+
+dthr                        | operacao | tabela    | novo                                                                                                                         | antigo                                                                                                                       | autor
+----------------------------+----------+-----------+------------------------------------------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------+--------
+2026-03-19 14:16:25.138407  | E        | employees |                                                                                                                              | {"emp_no":999999,"birth_date":"1990-01-01","first_name":"Teste2","last_name":"User","gender":"M","hire_date":"2026-03-19"} | querley
+2026-03-19 14:16:25.134162  | A        | employees | {"emp_no":999999,"birth_date":"1990-01-01","first_name":"Teste2","last_name":"User","gender":"M","hire_date":"2026-03-19"}   | {"emp_no":999999,"birth_date":"1990-01-01","first_name":"Teste","last_name":"User","gender":"M","hire_date":"2026-03-19"}  | querley
+2026-03-19 14:16:25.125454  | I        | employees | {"emp_no":999999,"birth_date":"1990-01-01","first_name":"Teste","last_name":"User","gender":"M","hire_date":"2026-03-19"}    |                                                                                                                              | querley
+
+(3 rows)
