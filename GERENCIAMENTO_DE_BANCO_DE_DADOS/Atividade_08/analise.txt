@@ -1,0 +1,16 @@
+Antes dos índices:
+
+As consultas estavam fazendo varredura na tabela inteira, então o custo era maior.
+
+Depois dos índices:
+
+O banco começou a usar os índices nas colunas first_name e hire_date, deixando as consultas mais rápidas.
+
+Diferença:
+
+- Menor custo
+- Execução mais rápida
+
+Conclusão:
+
+Os índices ajudam a melhorar o desempenho das consultas com WHERE.
