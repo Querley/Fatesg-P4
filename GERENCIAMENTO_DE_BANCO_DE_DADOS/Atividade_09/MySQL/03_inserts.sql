@@ -1,0 +1,10 @@
+INSERT INTO companies VALUES (1, 'Empresa A', '2020-01-01', 'Rua A', '1111-1111');
+INSERT INTO companies VALUES (2, 'Empresa B', '2020-02-01', 'Rua B', '2222-2222');
+INSERT INTO companies VALUES (3, 'Empresa C', '2020-03-01', 'Rua C', '3333-3333');
+INSERT INTO companies VALUES (4, 'Empresa D', '2020-04-01', 'Rua D', '4444-4444');
+INSERT INTO companies VALUES (5, 'Empresa E', '2020-05-01', 'Rua E', '5555-5555');
+INSERT INTO companies VALUES (6, 'Empresa F', '2020-06-01', 'Rua F', '6666-6666');
+INSERT INTO companies VALUES (7, 'Empresa G', '2020-07-01', 'Rua G', '7777-7777');
+INSERT INTO companies VALUES (8, 'Empresa H', '2020-08-01', 'Rua H', '8888-8888');
+INSERT INTO companies VALUES (9, 'Empresa I', '2020-09-01', 'Rua I', '9999-9999');
+INSERT INTO companies VALUES (10, 'Empresa J', '2020-10-01', 'Rua J', '0000-0000');

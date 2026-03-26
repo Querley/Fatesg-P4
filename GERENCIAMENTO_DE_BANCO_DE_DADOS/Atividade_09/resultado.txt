@@ -1,0 +1,14 @@
+RESULTADO
+
+Arquivo criado:
+tbs_meu_espaco.ibd
+
+Tamanho inicial:
+aproximadamente 96 KB
+
+Após 10 inserts:
+aproximadamente 112 KB
+
+Observação:
+
+O tamanho do arquivo aumentou após os inserts, pois novos dados foram armazenados no tablespace.
